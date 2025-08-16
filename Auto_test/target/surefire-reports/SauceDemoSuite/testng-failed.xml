@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SauceDemoSuite]" verbose="0">
+  <test thread-count="5" name="LoginTests(failed)" verbose="0">
+    <classes>
+      <class name="tests.SauceLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testLoginWithEmptyPassword"/>
+          <include name="openLoginPage"/>
+          <include name="checkResultAndCreateJiraIssue"/>
+          <include name="setUp"/>
+          <include name="testLoginWithEmptyCredentials"/>
+          <include name="testLoginWithEmptyUsername"/>
+          <include name="testLoginWithInvalidUsername"/>
+          <include name="testLoginWithInvalidPassword"/>
+          <include name="testLoginWithLockedUser"/>
+        </methods>
+      </class> <!-- tests.SauceLoginTest -->
+    </classes>
+  </test> <!-- LoginTests(failed) -->
+</suite> <!-- Failed suite [SauceDemoSuite] -->

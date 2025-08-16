@@ -1,0 +1,13 @@
+<suite name="SauceDemoSuite">
+    <test name="LoginTests">
+        <classes>
+            <class name="tests.SauceLoginTest"/>
+        </classes>
+    </test>
+    <test name="ProductSortTests">
+        <classes>
+            <class name="tests.ProductSortTest"/>
+        </classes>
+    </test>
+</suite>
+

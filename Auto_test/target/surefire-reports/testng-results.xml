@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-07T14:40:18 ICT" name="SauceDemoSuite" finished-at="2025-08-07T14:40:34 ICT" duration-ms="16241">
+    <groups>
+    </groups>
+    <test started-at="2025-08-07T14:40:18 ICT" name="LoginTests" finished-at="2025-08-07T14:40:34 ICT" duration-ms="16241">
+      <class name="tests.SauceLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SauceLoginTest@5fdcaa40]" started-at="2025-08-07T14:40:18 ICT" name="setUp" finished-at="2025-08-07T14:40:23 ICT" duration-ms="4961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:tests.SauceLoginTest@5fdcaa40]" started-at="2025-08-07T14:40:23 ICT" name="openLoginPage" finished-at="2025-08-07T14:40:27 ICT" duration-ms="3933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="testLoginSuccess()[pri:0, instance:tests.SauceLoginTest@5fdcaa40]" started-at="2025-08-07T14:40:27 ICT" name="testLoginSuccess" finished-at="2025-08-07T14:40:28 ICT" duration-ms="957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:tests.SauceLoginTest@5fdcaa40]" started-at="2025-08-07T14:40:28 ICT" name="openLoginPage" finished-at="2025-08-07T14:40:28 ICT" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="testLoginWithEmptyCredentials()[pri:0, instance:tests.SauceLoginTest@5fdcaa40]" started-at="2025-08-07T14:40:28 ICT" name="testLoginWithEmptyCredentials" finished-at="2025-08-07T14:40:28 ICT" duration-ms="612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithEmptyCredentials -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:tests.SauceLoginTest@5fdcaa40]" started-at="2025-08-07T14:40:28 ICT" name="openLoginPage" finished-at="2025-08-07T14:40:28 ICT" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="testLoginWithEmptyPassword()[pri:0, instance:tests.SauceLoginTest@5fdcaa40]" started-at="2025-08-07T14:40:28 ICT" name="testLoginWithEmptyPassword" finished-at="2025-08-07T14:40:29 ICT" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithEmptyPassword -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:tests.SauceLoginTest@5fdcaa40]" started-at="2025-08-07T14:40:29 ICT" name="openLoginPage" finished-at="2025-08-07T14:40:29 ICT" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="testLoginWithEmptyUsername()[pri:0, instance:tests.SauceLoginTest@5fdcaa40]" started-at="2025-08-07T14:40:29 ICT" name="testLoginWithEmptyUsername" finished-at="2025-08-07T14:40:30 ICT" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithEmptyUsername -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:tests.SauceLoginTest@5fdcaa40]" started-at="2025-08-07T14:40:30 ICT" name="openLoginPage" finished-at="2025-08-07T14:40:30 ICT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="testLoginWithInvalidPassword()[pri:0, instance:tests.SauceLoginTest@5fdcaa40]" started-at="2025-08-07T14:40:30 ICT" name="testLoginWithInvalidPassword" finished-at="2025-08-07T14:40:30 ICT" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidPassword -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:tests.SauceLoginTest@5fdcaa40]" started-at="2025-08-07T14:40:30 ICT" name="openLoginPage" finished-at="2025-08-07T14:40:30 ICT" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="testLoginWithInvalidUsername()[pri:0, instance:tests.SauceLoginTest@5fdcaa40]" started-at="2025-08-07T14:40:30 ICT" name="testLoginWithInvalidUsername" finished-at="2025-08-07T14:40:31 ICT" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidUsername -->
+        <test-method is-config="true" signature="openLoginPage()[pri:0, instance:tests.SauceLoginTest@5fdcaa40]" started-at="2025-08-07T14:40:31 ICT" name="openLoginPage" finished-at="2025-08-07T14:40:31 ICT" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method signature="testLoginWithLockedUser()[pri:0, instance:tests.SauceLoginTest@5fdcaa40]" started-at="2025-08-07T14:40:31 ICT" name="testLoginWithLockedUser" finished-at="2025-08-07T14:40:32 ICT" duration-ms="1146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithLockedUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceLoginTest@5fdcaa40]" started-at="2025-08-07T14:40:32 ICT" name="tearDown" finished-at="2025-08-07T14:40:34 ICT" duration-ms="1481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SauceLoginTest -->
+    </test> <!-- LoginTests -->
+  </suite> <!-- SauceDemoSuite -->
+</testng-results>
